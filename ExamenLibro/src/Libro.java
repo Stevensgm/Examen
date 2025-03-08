@@ -80,14 +80,14 @@ public class Libro {
      return false;
     }
    
-    @Override
-    public String toString() {
-        return "Libro{" +
-      "titulo='" + Titulo +  
-      " autor='" + autor +  
-      " numEjemplares=" + numEjemplares +
-      " numEjemplaresPrestados=" + numEjemplaresPrestados +
-      '}';
+    
+    public void imprimir (){
+        System.out.println("Titulo=  " + Titulo);
+        System.out.println("autor=  " + autor);
+        System.out.println("numEjemplares= " + numEjemplares);
+        System.out.println(" numEjemplaresPrestados= " + numEjemplaresPrestados);
+    
+   
     }}
 
     
